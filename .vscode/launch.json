@@ -9,7 +9,8 @@
       "type": "php",
       "request": "launch",
       "port": 9003,
-      "stopOnEntry": true,
+      // 何かのアクセス時、必ず止まるようにするオプション
+      // "stopOnEntry": true,
       "pathMappings": {
         "/var/www/html": "${workspaceRoot}/data/htdocs"
       },

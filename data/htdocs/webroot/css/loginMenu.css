@@ -1,0 +1,29 @@
+#login_form {
+  background-color: antiquewhite;
+  margin-right: 50px;
+  float: right;
+}
+
+#login_form #welcome {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#login_form #id_password_box {
+  width: 200px;
+  height: 150px;
+  text-align: left;
+}
+#login_form #id_password_box #input_login {
+  width: 200px;
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+#login_form #id_password_box #input_password {
+  width: 200px;
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}

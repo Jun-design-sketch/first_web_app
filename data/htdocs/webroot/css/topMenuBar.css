@@ -1,0 +1,31 @@
+#top_menu_bar ul {
+  background-color: antiquewhite;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#top_menu_bar li {
+  float: left;
+}
+
+#top_menu_bar li a{
+  display: block;
+  background-color: antiquewhite;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+}
+
+#top_menu_bar li a.current{
+  background-color: aquamarine;
+  color: black;
+}
+
+#top_menu_bar li a:hover:not(.current){
+  background-color: brown;
+  color:aliceblue;
+}
